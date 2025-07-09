@@ -1,6 +1,6 @@
-```puml
-@startuml
-Alice -> Bob: Привет!
-Bob --> Alice: Ответ
-@enduml
+```dot
+graph G {
+    a -- b -- c;
+    b -- d;
+}
 ```
